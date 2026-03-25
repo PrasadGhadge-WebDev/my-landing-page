@@ -54,7 +54,7 @@ function Features() {
         <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-brand">
           The World of Mota
         </span>
-        <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-6xl">
+        <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white xs:text-4xl sm:text-6xl">
           Featured <span className="italic font-light text-brand">Collections</span>
         </h2>
         <p className="mt-6 mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed sm:text-lg">

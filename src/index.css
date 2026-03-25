@@ -13,6 +13,16 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 6.5rem;
+}
+
+@media (max-width: 639px) {
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: -0.01em;
@@ -107,5 +117,4 @@ html.dark body {
 .text-brand { color: var(--color-brand); }
 .bg-brand { background-color: var(--color-brand); }
 .border-brand { border-color: var(--color-brand); }
-
 

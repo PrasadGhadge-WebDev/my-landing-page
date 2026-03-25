@@ -20,7 +20,7 @@ function Hero() {
           <span className="inline-block text-[10px] font-bold uppercase tracking-[0.4em] text-brand mb-6 bg-white/10 px-4 py-2 border border-brand/20">
             SINCE 1990 • BARAMATI
           </span>
-          <h1 className="text-4xl font-serif font-medium leading-[1.2] text-white sm:text-7xl lg:text-8xl">
+          <h1 className="text-3xl font-serif font-medium leading-[1.2] text-white xs:text-4xl sm:text-7xl lg:text-8xl">
             Where Quality <br />
             <span className="italic font-light text-brand">Meets</span> Tradition
           </h1>
