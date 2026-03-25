@@ -107,7 +107,8 @@ function Contact() {
                 href={`tel:${storePhoneNumber}`}
                 className="inline-flex items-center justify-center border border-slate-300 px-4 py-4 text-center text-[11px] font-bold uppercase tracking-[0.16em] text-slate-700 transition-all duration-300 hover:border-brand hover:text-brand dark:border-slate-600 dark:text-slate-200 dark:hover:border-brand dark:hover:text-brand sm:px-6 sm:text-xs sm:tracking-[0.2em]"
               >
-                Call Store 83909 55855
+                Call Store <br></br>
+                83909 55855
               </a>
             </div>
           </div>
