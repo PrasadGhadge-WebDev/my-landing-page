@@ -3,16 +3,16 @@ function Footer() {
     <footer className="border-t border-slate-100 bg-white py-12 dark:border-slate-800 dark:bg-slate-950">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 sm:gap-4">
             <div className="relative flex h-8 w-8 items-center justify-center">
               <div className="absolute inset-0 rotate-45 border border-white bg-brand" />
               <span className="relative z-10 text-xs font-serif font-black italic text-white">m</span>
             </div>
-            <span className="text-xl font-serif font-bold tracking-widest text-slate-950 dark:text-white">
+            <span className="text-lg font-serif font-bold tracking-[0.2em] text-slate-950 dark:text-white sm:text-xl sm:tracking-widest">
               MOTA <span className="font-light text-brand">BARAMATI</span>
             </span>
           </div>
-          <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
+          <p className="text-center text-[10px] uppercase tracking-[0.16em] text-slate-400 sm:text-xs sm:tracking-[0.2em]">
             &copy; {new Date().getFullYear()} Mota Collection. All rights reserved.
           </p>
           <div className="flex gap-6">
@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p className="text-[10px] uppercase tracking-[0.3em] text-slate-300 dark:text-slate-700">
+          <p className="text-[9px] uppercase tracking-[0.16em] text-slate-300 dark:text-slate-700 sm:text-[10px] sm:tracking-[0.3em]">
             Cloth & Readymade | Women World | Uniform Manufacturing
           </p>
         </div>

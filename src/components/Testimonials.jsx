@@ -38,7 +38,7 @@ function Testimonials() {
           {testimonials.map((testimonial) => (
             <article
               key={testimonial.author}
-              className="flex flex-col justify-between bg-white p-10 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover-lift"
+              className="flex flex-col justify-between border border-slate-100 bg-white p-6 dark:border-slate-800 dark:bg-slate-900 sm:p-10 hover-lift"
             >
               <div>
                 <div className="flex gap-1 text-brand mb-6">
@@ -48,7 +48,7 @@ function Testimonials() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-lg font-light italic leading-relaxed text-slate-700 dark:text-slate-300">
+                <p className="text-base font-light italic leading-relaxed text-slate-700 dark:text-slate-300 sm:text-lg">
                   "{testimonial.quote}"
                 </p>
               </div>

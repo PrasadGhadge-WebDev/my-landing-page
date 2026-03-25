@@ -41,20 +41,20 @@ function Pricing() {
         <div className="mt-6 mx-auto h-[1px] w-24 bg-brand" />
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-3">
+      <div className="grid gap-6 sm:gap-8 lg:grid-cols-3">
         {featuredPieces.map((piece) => (
           <article
             key={piece.name}
-            className={`flex flex-col p-10 transition-all duration-500 hover-lift ${
+            className={`flex flex-col p-6 sm:p-10 transition-all duration-500 hover-lift ${
               piece.featured
                 ? 'bg-brand text-white shadow-2xl'
                 : 'bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800'
             }`}
           >
-            <div className="flex justify-between items-start mb-8">
-              <h3 className="text-2xl font-serif">{piece.name}</h3>
+            <div className="mb-8 flex items-start justify-between gap-4">
+              <h3 className="text-xl font-serif sm:text-2xl">{piece.name}</h3>
               {piece.featured && (
-                <span className="text-[10px] font-bold uppercase tracking-widest border border-white px-2 py-1 text-white">
+                <span className="shrink-0 border border-white px-2 py-1 text-[9px] font-bold uppercase tracking-[0.18em] text-white sm:text-[10px] sm:tracking-widest">
                   Best Seller
                 </span>
               )}
@@ -70,7 +70,7 @@ function Pricing() {
             
             <ul className="mb-10 space-y-4 flex-grow">
               {piece.details.map((detail) => (
-                <li key={detail} className="flex items-center gap-4 text-xs uppercase tracking-widest font-medium opacity-80">
+                <li key={detail} className="flex items-center gap-4 text-[11px] font-medium uppercase tracking-[0.18em] opacity-80 sm:text-xs sm:tracking-widest">
                   <span className={`h-[1px] w-4 ${piece.featured ? 'bg-white' : 'bg-brand'}`} />
                   {detail}
                 </li>

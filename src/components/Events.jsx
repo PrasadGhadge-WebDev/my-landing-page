@@ -36,7 +36,7 @@ function Events() {
         <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand">
           Stay Updated
         </span>
-        <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white xs:text-4xl sm:text-5xl">
+        <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-5xl">
           Upcoming <span className="italic font-light text-brand">Events</span>
         </h2>
         <p className="mt-6 mx-auto max-w-2xl text-[14px] sm:text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
@@ -63,14 +63,14 @@ function Events() {
               </div>
             </div>
             
-            <div className="flex flex-1 flex-col p-8">
+            <div className="flex flex-1 flex-col p-6 sm:p-8">
               <div className="flex items-center gap-2 mb-3">
                 <div className="h-px w-8 bg-brand/40" />
                 <time className="text-xs font-bold uppercase tracking-widest text-brand">
                   {event.date}
                 </time>
               </div>
-              <h3 className="text-2xl font-serif text-slate-950 dark:text-white mb-4">
+              <h3 className="mb-4 text-xl font-serif text-slate-950 dark:text-white sm:text-2xl">
                 {event.title}
               </h3>
               <p className="text-sm text-slate-500 dark:text-slate-400 font-light leading-relaxed mb-8 flex-1">

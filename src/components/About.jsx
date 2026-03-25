@@ -23,16 +23,16 @@ function About() {
             <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-brand">
               Our Legacy Since 1990
             </span>
-            <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-6xl">
+            <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
               The Journey of <span className="italic font-light text-brand">Excellence</span>
             </h2>
-            <div className="mt-10 space-y-8 text-lg leading-relaxed text-slate-500 dark:text-slate-400 font-light">
+            <div className="mt-8 space-y-8 text-base font-light leading-relaxed text-slate-500 dark:text-slate-400 sm:mt-10 sm:text-lg">
               <p>
                 Established in 1990 in the heart of Baramati, Mota Collection began 
                 with a simple vision: to provide the finest fabrics and garments 
                 with unmatched personal service.
               </p>
-              <div className="mt-8 space-y-6 text-base sm:text-lg leading-relaxed text-slate-500 dark:text-slate-400 font-light">
+              <div className="mt-8 space-y-6 text-base font-light leading-relaxed text-slate-500 dark:text-slate-400 sm:text-lg">
               <p>
                 From the retail elegance of Women's World and premium Cloth &
                 Readymade to the precision of Uniform Manufacturing, Mota has
@@ -41,7 +41,7 @@ function About() {
             </div>
             </div>
 
-            <div className="mt-12 grid grid-cols-2 gap-8 border-t border-slate-100 pt-10 dark:border-slate-800">
+            <div className="mt-10 grid grid-cols-2 gap-6 border-t border-slate-100 pt-8 dark:border-slate-800 sm:mt-12 sm:gap-8 sm:pt-10">
               <div>
                 <p className="text-3xl font-serif text-slate-950 dark:text-white">1990</p>
                 <p className="mt-1 text-xs uppercase tracking-widest text-slate-500">Established</p>

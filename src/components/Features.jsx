@@ -54,7 +54,7 @@ function Features() {
         <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-brand">
           The World of Mota
         </span>
-        <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white xs:text-4xl sm:text-6xl">
+        <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-5xl lg:text-6xl">
           Featured <span className="italic font-light text-brand">Collections</span>
         </h2>
         <p className="mt-6 mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed sm:text-lg">
@@ -63,7 +63,7 @@ function Features() {
         </p>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid gap-6 sm:gap-8 md:grid-cols-2 xl:grid-cols-3">
         {collections.map((item, index) => (
           <article
             key={item.title}
@@ -79,14 +79,14 @@ function Features() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-slate-950/5" />
             
-            <div className="absolute inset-x-0 bottom-0 flex min-h-[15rem] flex-col justify-end p-8 sm:p-10">
+            <div className="absolute inset-x-0 bottom-0 flex min-h-[13rem] flex-col justify-end p-6 sm:min-h-[15rem] sm:p-10">
               <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.35em] text-brand/90">
                 {item.accent}
               </p>
-              <h3 className="mb-4 min-h-[5.5rem] text-3xl font-serif leading-tight text-white sm:text-4xl">
+              <h3 className="mb-4 min-h-[4.5rem] text-2xl font-serif leading-tight text-white sm:min-h-[5.5rem] sm:text-4xl">
                 {item.title}
               </h3>
-              <p className="min-h-[4.5rem] max-w-sm text-sm leading-relaxed text-slate-200 transition-opacity duration-300 group-hover:text-white">
+              <p className="min-h-[4rem] max-w-sm text-sm leading-relaxed text-slate-200 transition-opacity duration-300 group-hover:text-white sm:min-h-[4.5rem]">
                 {item.description}
               </p>
               <div className="mt-6 h-[2px] w-16 bg-brand transition-all duration-500 group-hover:w-28 shadow-[0_0_15px_rgba(227,30,36,0.45)]" />

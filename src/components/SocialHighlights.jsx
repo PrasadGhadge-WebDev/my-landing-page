@@ -17,7 +17,7 @@ function SocialHighlights() {
           <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-5xl">
             Experience the Legacy
           </h2>
-          <p className="mt-6 mx-auto max-w-2xl text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+          <p className="mt-6 mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed sm:text-lg">
             Experience the latest collections and festive vibes directly from our store in Baramati.
             Discover the magic of Mota through our curated social highlights.
           </p>
@@ -47,7 +47,7 @@ function SocialHighlights() {
             href="https://www.instagram.com/mota_collection_baramati/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-950 dark:text-white hover:text-brand dark:hover:text-brand transition-colors duration-300"
+            className="inline-flex items-center gap-2 text-center text-[11px] font-bold uppercase tracking-[0.16em] text-slate-950 transition-colors duration-300 hover:text-brand dark:text-white dark:hover:text-brand sm:text-xs sm:tracking-[0.2em]"
           >
             <span>Follow us on Instagram</span>
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
