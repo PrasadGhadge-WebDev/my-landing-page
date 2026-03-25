@@ -1,4 +1,4 @@
-import legacyImg from '../assets/images/shop.jpg'
+import legacyImg from '../assets/images/about_legacy.png'
 
 function About() {
   return (
@@ -20,10 +20,10 @@ function About() {
           </div>
 
           <div className="lg:order-2 animate-fade-up">
-            <span className="text-xs font-bold uppercase tracking-[0.4em] text-brand">
+            <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-brand">
               Our Legacy Since 1990
             </span>
-            <h2 className="mt-4 text-4xl font-serif font-medium text-slate-950 dark:text-white sm:text-6xl">
+            <h2 className="mt-4 text-3xl font-serif font-medium text-slate-950 dark:text-white sm:text-6xl">
               The Journey of <span className="italic font-light text-brand">Excellence</span>
             </h2>
             <div className="mt-10 space-y-8 text-lg leading-relaxed text-slate-500 dark:text-slate-400 font-light">
@@ -32,12 +32,13 @@ function About() {
                 with a simple vision: to provide the finest fabrics and garments 
                 with unmatched personal service.
               </p>
+              <div className="mt-8 space-y-6 text-base sm:text-lg leading-relaxed text-slate-500 dark:text-slate-400 font-light">
               <p>
-                Over three decades, this vision has evolved into a multi-faceted 
-                business group. From the retail elegance of Women\'s World and premium 
-                Cloth & Readymade to the precision of Uniform Manufacturing, Mota 
-                has become synonymous with trust and quality.
+                From the retail elegance of Women's World and premium Cloth &
+                Readymade to the precision of Uniform Manufacturing, Mota has
+                become synonymous with trust and quality.
               </p>
+            </div>
             </div>
 
             <div className="mt-12 grid grid-cols-2 gap-8 border-t border-slate-100 pt-10 dark:border-slate-800">

@@ -13,11 +13,11 @@ function Contact() {
             Experience the Legacy
           </h2>
           <p className="mt-8 text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
-            Step into our world of excellence in Baramati. From individual styling 
-            to bulk uniform requirements, Mota Collection provides unparalleled 
+            Step into our world of excellence in Baramati. From individual styling
+            to bulk uniform requirements, Mota Collection provides unparalleled
             personal attention to every client.
           </p>
-          
+
           <div className="mt-12 space-y-8">
             <div className="flex gap-6 group">
               <div className="h-14 w-14 flex items-center justify-center border-2 border-brand bg-brand text-white transition-transform group-hover:scale-110">
@@ -28,10 +28,10 @@ function Contact() {
               </div>
               <div>
                 <p className="font-serif text-xl font-bold text-slate-950 dark:text-white">Mota Boutique</p>
-                <p className="text-sm text-slate-500 font-light mt-1 uppercase tracking-widest">Main Market Area, Baramati</p>
+                <p className="text-sm text-slate-500 font-light mt-1 uppercase tracking-widest">Bhigwan-Chowk, Baramati</p>
               </div>
             </div>
-            
+
             <div className="flex gap-6 group">
               <div className="h-14 w-14 flex items-center justify-center border-2 border-brand text-brand transition-transform group-hover:scale-110">
                 <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,7 +85,7 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="mt-6 inline-flex items-center justify-center bg-brand px-10 py-5 text-sm font-bold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-slate-950"
+            className="mt-4 inline-flex items-center justify-center bg-brand px-8 py-4 text-xs font-bold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-slate-950 w-full sm:w-auto"
           >
             Send Inquiry
           </button>
